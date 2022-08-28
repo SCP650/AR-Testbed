@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ExampleAssets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/ARWeatherApp/ARWeather.unity
+  - enabled: 0
+    path: Assets/Projects/ARWeatherApp/ARWeather.unity
     guid: 2bff9260a4f5c4bc68bc7c16fa376998
+  - enabled: 1
+    path: Assets/Projects/ARToDoList/ToDoList.unity
+    guid: 2c8552114d46e4f8c9c03d1b8fad5d87
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
