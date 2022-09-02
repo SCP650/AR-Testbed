@@ -8,7 +8,6 @@ using UnityEngine.Events;
 public class PlaceObjectOnTouch : MonoBehaviour
 {
     public GameObject objectToPlacePrefab;
-    public GameObject testPrefab;
     public ARRaycastManager raycastManager;
 
     private GameObject gb;
@@ -30,7 +29,6 @@ public class PlaceObjectOnTouch : MonoBehaviour
                 {
                     Debug.Log("Placed TODO Object!");
                     gb = Instantiate(objectToPlacePrefab, hits[0].pose.position, Quaternion.identity);
-                    Instantiate(testPrefab, hits[0].pose.position, Quaternion.identity);
                 }
                 else
                 {

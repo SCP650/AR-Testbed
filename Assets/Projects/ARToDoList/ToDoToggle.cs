@@ -6,6 +6,8 @@ public class ToDoToggle : MonoBehaviour
 {
     public GameObject beforeBreak;
     public GameObject afterBreak;
+    public AudioSource audio;
+
     private void Start()
     {
         afterBreak.SetActive(false);
@@ -13,6 +15,8 @@ public class ToDoToggle : MonoBehaviour
 
     public void ToDoBreakObjects()
     {
+        audio.time = 0.2f;
+        audio.Play();
         beforeBreak.SetActive(false);
         afterBreak.SetActive(true);
     }
